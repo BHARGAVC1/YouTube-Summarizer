@@ -237,6 +237,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For issues, questions, or suggestions, please open an [issue](https://github.com/BHARGAVC1/youtube-summarizer/issues) on GitHub.
 
+🔗 LinkedIn: https://www.linkedin.com/in/bhargav-c-a2a46535a
+💻 GitHub: https://github.com/BHARGAVC1
+📧 Email: bhargav27love@gmail.com
 ---
+👨‍💻 Author
+Bhargav C
+Bachelor of Engineering – Computer Science & Engineering
+MVJ College of Engineering, Bengaluru
 
-**Made with ❤️ by [Your Name]**
+** Made with ❤️ by Bhargav C **
