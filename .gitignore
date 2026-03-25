@@ -1,8 +1,22 @@
-cat << 'EOF' > .gitignore
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+
+# Virtual environment
 venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
 .env
+
+# Test artifacts
 .pytest_cache/
-EOF
+.coverage
+
+# IDE folders
+.vscode/
+.idea/
