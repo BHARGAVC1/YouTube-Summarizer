@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Video Intelligence</title>
+<style>
+body {
+  margin:0;
+  font-family: 'Segoe UI';
+  background: linear-gradient(135deg,#141e30,#243b55);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  color:white;
+}
+.container {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(15px);
+  padding:40px;
+  border-radius:20px;
+  text-align:center;
+  width:400px;
+}
+input, textarea {
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border-radius:10px;
+  border:none;
+}
+button {
+  padding:12px;
+  width:100%;
+  border:none;
+  border-radius:10px;
+  background:#00f2fe;
+  font-weight:bold;
+  cursor:pointer;
+}
+.loader {
+  display:none;
+  margin-top:15px;
+}
+</style>
+
+<script>
+function showLoader() {
+  document.getElementById("loader").style.display = "block";
+}
+</script>
+
+</head>
+<body>
+
+<div class="container">
+  <h2>🚀 AI Video Intelligence</h2>
+
+  <form action="/summarize" method="post" onsubmit="showLoader()">
+    <input type="text" name="youtube_link" placeholder="Paste YouTube link..." required>
+    <textarea name="additional_prompt" placeholder="Custom instructions..."></textarea>
+    <button type="submit">✨ Analyze Video</button>
+  </form>
+
+  <div id="loader" class="loader">⏳ Processing AI...</div>
+</div>
+
+</body>
+</html>
